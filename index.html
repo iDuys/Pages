@@ -42,6 +42,15 @@ body {
 		this.color  = face.fill || false;
 		this.points = [];
 		if (!face.img) {
+	Poly = function (parent, face) {
+		this.parent = parent;
+		this.ctx    = ctx;
+		this.color  = face.fill || false;
+		this.points = [];
+		if (!face.img) {
+			// ---- create points ----
+			for (var i = 0; i < 4; i++) {
+				this.points[i] = new ge1doot.transform3D.Point(
 			// ---- create points ----
 			for (var i = 0; i < 4; i++) {
 				this.points[i] = new ge1doot.transform3D.Point(
@@ -381,14 +390,14 @@ body {
 <p>来源：<a href="http://sc.chinaz.com/" target="_blank">站长素材</a></p>
 </div>
 <audio controls="controls" height="100" width="100"
-	src="http://qqma.tingge123.com:823/mp3/2016-04-20/1461146912.mp3" preload="meta" loop autoplay id="bgmusic"></audio> 
+	src="https://tj-ctfs.ftn.qq.com/ftn_handler/57b82abe50f4e2562874a4269d1a2f8ca56d66d52d199eecae3dba4321e53286df77ac7755f847ea51c8e59be3ceefb4b29ee487c739336f624b2c4e2fe82fc9/?fname=%E8%88%AA%E6%8B%8D%E4%B8%AD%E5%9B%BD.mp3&k=24396434d71cb8cc5e02edb94062041c0001020d54060102480b5602534f0201525b490d5553501e510b560303060004535b5350666e3689d8fca0e2b6dbcc1d084957345b&code=e9d4fb63&fr=00&&txf_fid=2716b405c203d06695d5dab6d97a36b974f1b5cd&xffz=7438671.mp3" preload="meta" loop autoplay id="bgmusic"></audio> 
 	
 
 	<embed height="100" width="100" src="" />
 	
 	</audio>
 
-	<script type="text/javascript" src="http://qqma.tingge123.com:823/mp3/2016-04-20/1461146912.mp3"></script>
-	<a href="http://qqma.tingge123.com:823/mp3/2016-04-20/1461146912.mp3>Play Sound</a>
+	<script type="text/javascript" src="https://tj-ctfs.ftn.qq.com/ftn_handler/57b82abe50f4e2562874a4269d1a2f8ca56d66d52d199eecae3dba4321e53286df77ac7755f847ea51c8e59be3ceefb4b29ee487c739336f624b2c4e2fe82fc9/?fname=%E8%88%AA%E6%8B%8D%E4%B8%AD%E5%9B%BD.mp3&k=24396434d71cb8cc5e02edb94062041c0001020d54060102480b5602534f0201525b490d5553501e510b560303060004535b5350666e3689d8fca0e2b6dbcc1d084957345b&code=e9d4fb63&fr=00&&txf_fid=2716b405c203d06695d5dab6d97a36b974f1b5cd&xffz=7438671.mp3"></script>
+	<a href="https://tj-ctfs.ftn.qq.com/ftn_handler/57b82abe50f4e2562874a4269d1a2f8ca56d66d52d199eecae3dba4321e53286df77ac7755f847ea51c8e59be3ceefb4b29ee487c739336f624b2c4e2fe82fc9/?fname=%E8%88%AA%E6%8B%8D%E4%B8%AD%E5%9B%BD.mp3&k=24396434d71cb8cc5e02edb94062041c0001020d54060102480b5602534f0201525b490d5553501e510b560303060004535b5350666e3689d8fca0e2b6dbcc1d084957345b&code=e9d4fb63&fr=00&&txf_fid=2716b405c203d06695d5dab6d97a36b974f1b5cd&xffz=7438671.mp3>Play Sound</a>
 </body>
 </html>
